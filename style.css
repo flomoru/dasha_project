@@ -196,3 +196,33 @@ footer a {
     font-size: 12px;
   }
 }
+@media (max-width: 480px) {
+  .header-top .beaver {
+    display: none; /* Убираем бобра */
+  }
+
+  .map {
+    flex-direction: column; /* Картинки снизу отображаются вертикально */
+    gap: 10px;
+  }
+
+  .map img {
+    width: 70%; /* Растягиваем изображения на ширину контейнера */
+    max-width: 300px; /* Устанавливаем максимальную ширину для изображений */
+    height: auto; /* Сохраняем пропорции */
+    margin: 0 auto; /* Центрируем изображения */
+  }
+
+  footer {
+    flex-direction: row; /* Горизонтальное выравнивание */
+    justify-content: space-between; /* Размещаем ссылки по бокам */
+    width: 100%;
+  }
+
+  footer a {
+    text-align: center;
+    font-size: 14px; /* Размер текста для мобильных */
+  }
+}
+
+
