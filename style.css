@@ -40,7 +40,7 @@ body {
 }
 
 .header-top h2 {
-  font-size: 24px;
+  font-size: 32px;
   color: #003366;
 }
 
@@ -139,7 +139,7 @@ footer a {
   }
 
   .content h1 {
-    font-size: 22px;
+    font-size: 14px;
   }
 
   .content section h2 {
@@ -175,7 +175,7 @@ footer a {
   }
 
   .content h1 {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .content section h2 {
