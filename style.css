@@ -100,7 +100,7 @@ body {
 }
 
 .map img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   border: 1px solid #ccc;
   border-radius: 8px;

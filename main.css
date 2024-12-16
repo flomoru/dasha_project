@@ -1,0 +1,41 @@
+.button_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Два равных столбца */
+    gap: 15px; /* Отступы между кнопками */
+  }
+  
+  .btn21 {
+    display: inline-block;
+    background-color: #116991;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .btn21:hover {
+    background-color: #003366;
+    transform: translateY(-3px);
+  }
+  
+  .btn21:active {
+    background-color: #0e5a7b;
+    transform: translateY(0);
+  }
+  
+  @media (max-width: 768px) {
+    .button_container {
+      grid-template-columns: 1fr; /* Один столбец на маленьких экранах */
+    }
+  
+    .btn21 {
+      font-size: 14px;
+      padding: 8px 10px;
+    }
+  }
+  
